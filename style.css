@@ -1,5 +1,5 @@
 :root {
-    --color-principal:#faf9f7;
+    --color-principal:#FFFCFA;
     --color-secundario:#959A80;
     --color-terciario:#959A80;
  
@@ -31,12 +31,15 @@ body h2 {
 }
 /*BANNER INICIAL */
 header {
+    background-color: #FFFCFA;!important
     width: 100%;
     height: 100vh;
+    max-width: 1200px;
     background-image: url(./imgs/DESKTOPCLASICO.png);
     background-position: center;
+    margin: auto;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .parallax {
